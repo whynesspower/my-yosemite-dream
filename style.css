@@ -1,0 +1,87 @@
+body, html{ 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  position: relative;
+  z-index: 4;
+  color: #839AA8;
+  text-shadow: 2px 2px 2px 2px #635666;
+   -webkit-text-stroke: 1px #635666;
+
+  text-align: center;
+  font-family: 'Sigmar One', cursive;
+}
+
+p{
+  margin: auto;
+  width: 70%;
+  top: center;
+  background-color: rgba(99, 86, 102, 0.5);
+  font-family: "Times New Roman", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #D3EBCD;
+  text-shadow: 1px 1px black;
+  /*-webkit-text-stroke: 1px #635666;*/
+}
+
+.emp{
+  height: 40px;
+}
+
+.empty {
+  height: 340px;
+
+}
+.temp{
+  margin: auto;
+  align-self: center;
+  display: flex;
+  top: center;
+  color: white;
+  background-color: #635666;
+}
+
+
+.tem2{
+  background-color: grey;
+}
+
+.nav-link{
+  color: #635666;
+}
+
+.navbar {
+  background-color: dimgrey;
+  /*background: dimgrey;*/
+  color: white;
+
+}
+
+.nav-link{
+  color: #D3EBCD;
+}
+.nav-link:hover{
+  color: #C689C6;
+}
+
+.btn2{
+  background-color: white;
+}
+
+.btn2:hover{
+  background-color: #C689C6;
+}
+
+a{
+  text-decoration: none;
+  color: #FF869E;
+}
+a:hover{
+  color:#C689C6 ;
+}
